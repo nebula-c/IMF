@@ -19,4 +19,4 @@ root thisisexample.cc
 
 
 example)
-./IMF.py mycommandlist.txt -c 10
+# ./IMF.py mycommandlist.txt -c 10
