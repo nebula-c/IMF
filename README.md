@@ -6,11 +6,11 @@
 : 명령어들이 엔터로 구분되어야함
 ------------------------------------------------------
 ### ex)example.txt 
-root thisisexample.cc  
-root thisisexample.cc  
-root thisisexample.cc  
-root thisisexample.cc  
-root thisisexample.cc  
+root thisisexample1.cc  
+root thisisexample2.cc  
+root thisisexample3.cc  
+root thisisexample4.cc  
+root thisisexample5.cc  
 ------------------------------------------------------
 
 
