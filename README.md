@@ -14,9 +14,8 @@ root thisisexample.cc
 ------------------------------------------------------
 
 
-사용법
+# 사용법  
 ./IMF.py 커맨드텍스트파일 -c 사용할코어수
 
-
-example)
+example)  
 # ./IMF.py mycommandlist.txt -c 10
