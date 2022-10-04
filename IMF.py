@@ -39,16 +39,17 @@ class Multisub:
         while(True):
 
             for i in range(corenum):    
-                if donenum + i + 1 == totalnum: break                
                 process_list[donenum + i].start()
+                if donenum + i + 1 == totalnum: break                
             for i in range(corenum):
-                if donenum + i + 1 == totalnum:
-                    donenum = donenum + i + 1
-                    break                
                 process_list[donenum + i].join()
+                donenum = donenum + i + 1    
+                if donenum + i + 1 == totalnum:break    
             
             donenum = donenum + corenum
             if donenum >= totalnum: break
+        
+        
 
             
         
