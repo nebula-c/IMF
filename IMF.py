@@ -43,7 +43,6 @@ class Multisub:
                 if donenum + i + 1 == totalnum: break                
             for i in range(corenum):
                 process_list[donenum + i].join()
-                donenum = donenum + i + 1    
                 if donenum + i + 1 == totalnum:break    
             
             donenum = donenum + corenum
